@@ -9,10 +9,32 @@ li {
     padding: 6px;
 }
 
+#barra1, #barra2 {
+    padding: 10px;
+}
+
+#der {
+    position: absolute;
+    right: 20px;
+}
+
 #centro {
     position: relative;
     top: 180px;
     text-align: center;
+}
+
+#searchform {
+    padding: 20px;
+}
+
+#botones {
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline;
+    padding: 5px;
 }
 
 header ul {
