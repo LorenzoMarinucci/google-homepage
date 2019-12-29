@@ -10,9 +10,9 @@ li {
 }
 
 #centro {
-    position: absolute;
-    top: 30%;
-    left: 20%;
+    position: relative;
+    top: 180px;
+    text-align: center;
 }
 
 header ul {
