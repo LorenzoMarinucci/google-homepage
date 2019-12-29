@@ -1,3 +1,5 @@
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -7,6 +9,40 @@ ul {
 li {
     display: inline;
     padding: 6px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+header li {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+#barra1, #barra2 {
+    background-color: rgb(242, 242, 242);
+    border-top-width: 1px;
+    border-color: rgb(228, 228, 228);
+    border-style: solid;
+}
+
+a {
+    color: inherit;
+}
+
+a: link, a:visited, a:active {
+    text-decoration: none;
+}
+
+a: hover {
+    text-decoration: underline;
+}
+
+#barra1 li {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 15px;
+}
+
+#barra2 li {
+    color:rgb(95, 99, 104);
 }
 
 #barra1, #barra2 {
