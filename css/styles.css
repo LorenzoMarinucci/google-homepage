@@ -1,4 +1,21 @@
 
+.button2 {
+    background-color: rgb(242, 242, 242);
+    border-radius: 0%;
+    text-align: center;
+    border-style: none;
+    font-size: 14px;
+    color:rgb(95,99,104);
+    padding: 10px;
+}
+
+#searchform {
+    border-style: solid;
+    border-radius: 25px;
+    height: 4px;
+    margin: 15px;
+    font-size: 15px;
+}
 
 ul {
     list-style-type: none;
@@ -26,13 +43,10 @@ header li {
 
 a {
     color: inherit;
-}
-
-a: link, a:visited, a:active {
     text-decoration: none;
 }
 
-a: hover {
+a:hover {
     text-decoration: underline;
 }
 
