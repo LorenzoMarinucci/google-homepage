@@ -9,12 +9,22 @@
     padding: 10px;
 }
 
+#sesion {
+    font-weight: bold;
+    color:white;
+    padding: 8px 10px;
+    background-color: rgb(67, 135, 253);
+    border-radius: 2px;
+    
+}
+
 #searchform {
     border-style: solid;
     border-radius: 25px;
     height: 4px;
     margin: 15px;
     font-size: 15px;
+    border-color:rgb(232, 232, 232);
 }
 
 ul {
@@ -46,7 +56,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a:hover:not(#sesion) {
     text-decoration: underline;
 }
 
